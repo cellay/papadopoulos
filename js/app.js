@@ -83,7 +83,7 @@ $.ajax({
     xhrObj.setRequestHeader("Content-Type", "application/json");
     xhrObj.setRequestHeader("Accept-Language", "en_US");
   },
-  type: "POST",
+  type: "GET",
   success: function (data) {
     console.log(data)
   }
