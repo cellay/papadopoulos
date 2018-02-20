@@ -84,6 +84,8 @@ $.ajax({
     xhrObj.setRequestHeader("Accept-Language", "en_US");
   },
   type: "GET",
+  crossDomain: true,
+  dataType: 'jsonp',
   success: function (data) {
     console.log(data)
   }
